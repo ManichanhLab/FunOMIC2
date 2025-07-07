@@ -1,5 +1,5 @@
 # FunOMIC2
-
+![FunOMIC logo](https://manichanh.vhir.org/assets/img/funomic2_logo.jpg)
 ## Introduction
 
 Here we present FunOMIC2, a new version of the FunOMIC pipeline and databases, which includes major updates in both the databases and the pipeline in order to improve the analysis of mycobiome in shotgun metagenomic samples.
