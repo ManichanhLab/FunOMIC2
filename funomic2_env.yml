@@ -1,0 +1,15 @@
+name: funomic2
+channels:
+  - conda-forge
+  - bioconda
+  - biobakery
+  - anaconda
+  - defaults
+  - default
+dependencies:
+  - python=3.7.4
+  - pandas=0.25.1
+  - bowtie2=2.2.5
+  - samtools=1.9
+  - flash2=2.2
+  - diamond=2.0.8
