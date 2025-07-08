@@ -5,7 +5,7 @@
 Here we present FunOMIC2, a new version of the FunOMIC pipeline and databases, which includes major updates in both the databases and the pipeline in order to improve the analysis of mycobiome in shotgun metagenomic samples.
 <!-- [brief explanantion of the changes??] -->
 
-## Install FunOMIC2 pipeline
+## Installing FunOMIC2 pipeline
 1. Download the FunOMIC2 pipeline from this repository
 ```{bash}
 git clone https://github.com/ManichanhLab/FunOMIC2.git
@@ -32,16 +32,20 @@ export PATH=$PATH:/[your current directory]/FunOMIC2
 conda activate funomic2
 ```
 
-2. Download FunOMIC2 databases from the website: [website]
+2. Download FunOMIC2 databases from the website: [https://manichanh.vhir.org/funomic/](https://manichanh.vhir.org/funomic/) or from the command line
 ```{bash}
 #bacterial decontamination database
-wget [website]
+wget https://manichanh.vhir.org/funomic/BacterialDB.tar.xz -O BacterialDB.tar.xz
 #FunOMIC2 taxonomy database
+wget https://manichanh.vhir.org/funomic/FunOMIC-T.v2.tar.xz -O FunOMIC-T.v2.tar.xz
 #FunOMIC2 protein database
+wget https://manichanh.vhir.org/funomic/FunOMIC.P.v2.tar.xz -O FunOMIC.P.v2.tar.xz
 ```
 3. Decompress FunOMIC2 database files
 ```{bash}
-tar -Jxvf [files]
+tar -Jxvf BacterialDB.tar.xz
+tar -Jxvf FunOMIC-T.v2.tar.xz
+tar -Jxvf FunOMIC.P.v2.tar.xz
 ```
 
 4. Run FunOMIC2 pipeline (replace the elements in brackets [ ] with the appropiate values)
