@@ -67,7 +67,7 @@ It is recomended to previously run a quality control and decontamination pipelin
 
 If you use FunOMIC2, please cite:
 
-<!-- add FunOMIC2 citation -->
-Xie, Z. and Manichanh, C. (2022). FunOMIC: Pipeline with built-in Fungal Taxonomic and Functional Databases for Human Mycobiome Profiling. https://doi.org/10.1016/j.csbj.2022.07.010
+Xie, Z. and Manichanh, C. (2022). FunOMIC: Pipeline with built-in Fungal Taxonomic and Functional Databases for Human Mycobiome Profiling. https://doi.org/10.1016/j.csbj.2022.07.010  
+Vega-Abellaneda, S., Xie, Z. and Manichanh, C. (to be published). FunOMIC2: Updated pipeline with built-in fungal taxonomic and functional databases for human mycobiome profiling.
 
 As well as all third-party tools used by the pipeline.
